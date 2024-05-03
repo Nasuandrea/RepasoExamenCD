@@ -16,6 +16,8 @@ public class PruebaTest {
         Prueba prueba1 = new Prueba();
         int resultado = prueba1.suma(2,3);
      assertEquals(5, resultado);
+     int resultado2 = prueba1.suma(-2,3);
+     assertEquals(1, resultado2);
 
     }
 
