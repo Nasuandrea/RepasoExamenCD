@@ -19,4 +19,11 @@ public class PruebaTest {
      assertEquals(1, resultado2);
     }
 
+    @Test
+    public void resta() {
+        int resultado= prueba1.resta(3,2);
+        assertEquals(1, resultado);
+        int resultado2= prueba1.resta(-3,-2);
+        assertEquals(-1, resultado2);
+    }
 }
