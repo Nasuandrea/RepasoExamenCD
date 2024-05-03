@@ -30,4 +30,11 @@ public class PruebaTest {
         int resultado= prueba1.resta(-3,-2);
         assertEquals(-1, resultado);
     }
+
+    @Test
+    public void multiplicacion() {
+        int resultado = prueba1.multiplicacion(2,3);
+        assertEquals(6, resultado);
+
+    }
 }
